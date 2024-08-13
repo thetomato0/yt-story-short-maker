@@ -1,0 +1,7 @@
+moviepy
+ffmpeg
+whisper
+praw
+requests
+colorama
+termcolor
