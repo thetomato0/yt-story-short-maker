@@ -64,7 +64,8 @@ every time you run the script it first takes a post of your subreddit of choice 
 
 ## coming soon (Maybe)
 
- - automatic upload to youtube
- - better subtitles
- - voice based on the story
+ 
+- [] automatic upload to youtube
+- [] better subtitles
+- [] voice based on the story
 
