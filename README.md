@@ -17,7 +17,7 @@ first install dependencies and **ffmpeg**
 ```pip install -r requirements.txt```
 
 you can install **ffmepg** here:
-[ffmpeg](www.ffmpeg.org)
+www.ffmpeg.org
 
 running the script:
 ```python ./start.py```
