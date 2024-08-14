@@ -52,7 +52,7 @@ voicenameTitle is the how it reads the title
 voicenameTextis the how it reads the story itself
 subreddit is the subreddit that it takes the story from
 clientid,clientsecret,useragent are your reddit credentials here is how to get them:
-bit.ly/3Aotv9G
+www.bit.ly/3Aotv9G
 its better not to touch delay but it defines how much room there is after the video ends
 
 **after changing the config to your liking press enter in the script**
