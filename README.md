@@ -1,5 +1,5 @@
 
-# Youtube short story maker
+### Youtube short story maker
 its a program that automatically makes short videos from reddit stories with subtitles!
 
 
@@ -55,7 +55,7 @@ clientid,clientsecret,useragent are your reddit credentials here is how to get t
 www.bit.ly/3Aotv9G
 its better not to touch delay but it defines how much room there is after the video ends
 
-# you can see available voices in tiktokvoice.py
+### you can see available voices in tiktokvoice.py
 
 **after changing the config to your liking press enter in the script**
 
