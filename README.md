@@ -26,7 +26,7 @@ running the script:
 
 ## Config
 
-After running the script there will be will be a red message **DO NOT CLOSE THE WINDOW** there will be a new folder named **file** and a new file named **config.json** put your background of your choice there and rename it to bg.mp4 this script only supports mp4 this will be the background of your video then open the config.json file with your text editor  it should look something like this
+After running the script there will be will be a red message and also there will be a new folder named **file** and a new file named **config.json** put your background of your choice in the file folder and rename it to bg.mp4 this script only supports mp4 this will be the background of your video then open the config.json file with your text editor  it should look something like this
 
 ```
 {
