@@ -11,7 +11,7 @@ Using this project for content creation has some advantages over using websites 
  - Customizable: because its open source you can edit any aspect of the app
  - Free: unlike vsub where you have to pay 29 usd per month this app is completely free
 
-### how to use
+# how to use
 
 first install dependencies and **ffmpeg**
 ```pip install -r requirements.txt```
