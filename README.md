@@ -3,7 +3,7 @@
 its a program that automatically makes short videos from reddit stories with subtitles!
 
 
-# #Advantage
+## Advantage
 
 Using this project for content creation has some advantages over using websites like vsub
 
