@@ -1,5 +1,5 @@
 
-### Youtube short story maker
+# Youtube short story maker
 its a program that automatically makes short videos from reddit stories with subtitles!
 
 
