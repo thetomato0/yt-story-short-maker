@@ -1,74 +1,75 @@
+# YouTube Short Story Maker
 
-# Youtube short story maker
-its a program that automatically makes short videos from reddit stories with subtitles!
+This program automatically creates short videos from Reddit stories, complete with subtitles!
 
+## Advantages
 
-## Advantage
+Using this project for content creation offers several benefits compared to websites like vsub:
 
-Using this project for content creation has some advantages over using websites like vsub
+- **Open Source**: Full control over functionality and customization.
+- **Customizable**: Edit any aspect of the application to suit your needs.
+- **Free**: No subscription fees, unlike vsub, which costs $29 per month.
 
- - Open source: its means you have full control over how it works
- - Customizable: because its open source you can edit any aspect of the app
- - Free: unlike vsub where you have to pay 29 usd per month this app is completely free
+## How to Use
 
-# how to use
+1. **Install Dependencies**: First, install the required dependencies and **FFmpeg**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-first install dependencies and **ffmpeg**
-```pip install -r requirements.txt```
+   You can download **FFmpeg** from [ffmpeg.org](https://www.ffmpeg.org).
 
-you can install **ffmepg** here:
-www.ffmpeg.org
+2. **Run the Script**: Execute the following command:
+   ```bash
+   python ./start.py
+   ```
+   > **Note**: If the script appears to freeze, it may still be running. If you encounter issues, please report them in the issues tab.
 
-running the script:
-```python ./start.py```
-> **Note:** sometimes it seams its frozen but its not its not if you encounter any issue post it in the issues tab>
+## Configuration
 
+After running the script, you will see a red message, and a new folder named **file** will be created, along with a **config.json** file.
 
-## Config
+### Steps to Configure:
 
-After running the script there will be will be a red message and also there will be a new folder named **file** and a new file named **config.json** put your background of your choice in the file folder and rename it to bg.mp4 this script only supports mp4 this will be the background of your video then open the config.json file with your text editor  it should look something like this
+1. Place your chosen background video in the **file** folder and rename it to **bg.mp4** (only MP4 format is supported).
+   
+2. Open **config.json** with a text editor. It should look like this:
 
-```
-{
+   ```json
+   {
+       "voicenameTitle": "en_us_007",
+       "voicenameText": "en_us_007",
+       "subreddit": "stories",
+       "clientid": "",
+       "clientsecret": "",
+       "useragent": "",
+       "delay": 0
+   }
+   ```
 
-"voicenameTitle":  "en_us_007",
+   - **voicenameTitle**: Voice for reading the title.
+   - **voicenameText**: Voice for reading the story.
+   - **subreddit**: The subreddit to pull stories from.
+   - **clientid, clientsecret, useragent**: Your Reddit credentials (see [this guide](https://www.bit.ly/3Aotv9G) for obtaining them).
+   - **delay**: Defines the pause after the video ends (recommended to leave unchanged).
 
-"voicenameText":  "en_us_007",
+3. **Available Voices**: You can see the available voices in `tiktokvoice.py`.
 
-"subreddit":  "stories",
+After adjusting the configuration to your preference, press **Enter** in the script.
 
-"clientid":  "",
+## How It Works
 
-"clientsecret":  "",
+Each time you run the script, it:
 
-"useragent":  "",
+1. Fetches a post from your chosen subreddit.
+2. Uses TikTok AI voice to generate audio.
+3. Merges the audio with your background video (**bg.mp4**) and adds subtitles.
+4. Produces the final output video.
 
-"delay":  0
+## Coming Soon (Maybe)
 
-}
-```
-
-voicenameTitle is the how it reads the title
-voicenameTextis the how it reads the story itself
-subreddit is the subreddit that it takes the story from
-clientid,clientsecret,useragent are your reddit credentials here is how to get them:
-www.bit.ly/3Aotv9G
-its better not to touch delay but it defines how much room there is after the video ends
-
-### you can see available voices in tiktokvoice.py
-
-**after changing the config to your liking press enter in the script**
-
-
-
-## how it works
-every time you run the script it first takes a post of your subreddit of choice then uses the tiktok ai voice to make the audio then merges the audio and your video (bg.mp4) then adds subtitels and then you get the output
-
-## coming soon (Maybe)
-
-- [ ] gui
-- [ ] photo of the post title for the beginning of the video
-- [ ] automatic upload to youtube
-- [ ] better subtitles
-- [ ] voice based on the story
-
+- [ ] Graphical User Interface (GUI)
+- [ ] Thumbnail image of the post title at the beginning of the video
+- [ ] Automatic upload to YouTube
+- [ ] Enhanced subtitle options
+- [ ] Voice customization based on the story
