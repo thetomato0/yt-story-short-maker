@@ -1,5 +1,5 @@
 # YouTube Short Story Maker
- > **Note**:this porject is discontinued because someone made it already here is the link:
+ > **Note**:this project is discontinued because someone made it already here is the link:
 https://github.com/elebumm/RedditVideoMakerBot
 
 
